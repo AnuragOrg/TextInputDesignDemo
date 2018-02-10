@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     TextView textDummyHintPromoCode;
     EditText editMobileNumber;
     EditText editPromoCode;
-//anurag
+//prasad
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
