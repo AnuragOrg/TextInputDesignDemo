@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
 
+
                 if (hasFocus) {
                     new Handler().postDelayed(new Runnable() {
 
