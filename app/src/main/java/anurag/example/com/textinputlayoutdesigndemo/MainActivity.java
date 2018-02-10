@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     TextView textDummyHintPromoCode;
     EditText editMobileNumber;
     EditText editPromoCode;
-
+//anurag
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         editMobileNumber.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-
 
                 if (hasFocus) {
                     new Handler().postDelayed(new Runnable() {
